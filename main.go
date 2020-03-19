@@ -15,7 +15,6 @@ import (
 
 const p_key = "af1de9a9cb32fb77d430842b5feb46f75733c49e803a0717b6507f2caa5732d4b3cf2f1d5d61ab7cf1e82cadc16c1632351f966ce764a7763b91608e2fc9a80f0b1c88bd23462091f9b91c9dc039238527de71b96b3551f59255b5c5b40532e2327014fac8f3d2f48919d114df9b1a96217e455baf422538be883a469414b81d"
 
-
 func Reverse(s string) string {
 	runes := []rune(s)
 	for i, j := 0, len(runes)-1; i < j; i, j = i+1, j-1 {
